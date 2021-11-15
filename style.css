@@ -1,0 +1,59 @@
+/* téléchargement d'une police originale */
+@font-face {
+  font-family: mapolice;
+  src: url(UniformRegular.otf);
+}
+
+
+header {
+  border: outset 4px white;
+  border-radius: 15px;
+  background-color: rgb(192, 60, 60);
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+
+
+header h1 {
+  font-family: mapolice, serif;
+  font-size: 44px;
+  color: white;
+  
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#regle {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(fonddecran.jpg);
+  background-size: cover;
+}
+
+
+/* mise en page et mise en forme du footer et des 3 div */
+#footer{
+  display: inline-block;
+  width: 97.5%;
+  background-color: rgb(233, 229, 27);
+  border: 0px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-family: Comic Sans MS, sans-serif;
+  color: white;
+  bottom: 0;
+}
+
+#affichage{
+  color: white;
+}
+
+
+

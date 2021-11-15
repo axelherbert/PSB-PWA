@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8"/>
+        <title>Projet PWA - Puissance 4</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="manifest" href="manifest.json">
+            <meta name="theme-color" content="#2F3BA2">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+      <header>
+      <h1>Projet PWA - Puissance 4</h1>
+  </header>
+
+    <h1>Le jeu Puissance 4</h1>
+    <p id='regle' align="center">Règle : Pour gagner une partie de puissance 4, il suffit d'être le premier à aligner 4 jetons de sa couleur horizontalement, verticalement et diagonalement et l'annoncer.</br>
+      Si lors d'une partie, tous les jetons sont joués sans qu'il y est d'alignement de jetons, la partie est déclaré nulle.
+    </p>
+    <p id='affichage' align="center">NOUVELLE PARTIE - Couleur du prochain pion joué : JAUNE<p id='score' align="center"></p>
+    </center>
+    <p align="center"><a href="#" onClick="rejouer()">Vider la grille pour recommencer une nouvelle partie </a></p>
+    </font></b>
+    <center>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+      if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js', { scope: '' })
+            .then(function(registration) {
+                  console.log('Service Worker Registered');
+            });
+  
+          navigator.serviceWorker.ready.then(function(registration) {
+             console.log('Service Worker Ready');
+          });
+        }
+      </script>
+    </br>
+    <br>
+    </body>
+    <footer>
+      <div id="footer">
+        <p> Projet PWA - Axel Herbert, Jayson Hun, Louis Goursaud</p>
+      </div>
+    </footer>
+    </html>

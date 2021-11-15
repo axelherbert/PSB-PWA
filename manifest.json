@@ -1,0 +1,25 @@
+{
+    "name": "Puissance 4 PWA",
+    "short_name": "PWA",
+    "icons": [{
+          "src": "blanc.png",
+          "sizes": "586x600",
+          "type": "image/png"
+        }, {
+          "src": "jaune.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }, {
+          "src": "fonddecran.jpg",
+          "sizes": "1920x1280",
+          "type": "image/png"
+        }, {
+          "src": "rouge.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }],
+    "start_url": "http://localhost:8888/Site/p4-pwa/index.html",
+    "display": "standalone",
+    "background_color": "#3E4EB8",
+    "theme_color": "#2F3BA2"
+  }
